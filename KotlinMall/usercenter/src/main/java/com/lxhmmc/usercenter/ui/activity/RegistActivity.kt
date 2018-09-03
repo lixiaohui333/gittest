@@ -1,19 +1,32 @@
 package com.lxhmmc.usercenter.ui.activity
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
-import android.widget.Toast
+import com.lxhmmc.baselibrary.ui.activity.BaseMvpActivity
 import com.lxhmmc.usercenter.R
+import com.lxhmmc.usercenter.presenter.RegistPresenter
+import com.lxhmmc.usercenter.presenter.view.RegistView
 import kotlinx.android.synthetic.main.activity_regist.*
+import org.jetbrains.anko.toast
 
-class RegistActivity : AppCompatActivity() {
+class RegistActivity : BaseMvpActivity<RegistPresenter>(),RegistView {
+
+
+    override fun onRegistResult(success: Boolean) {
+        if (success){
+            toast("注册成功")
+        }
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_regist)
 
+
+        mPresenter= RegistPresenter()
+        mPresenter.mView=this
+
         mRegistBtn.setOnClickListener{
-            Toast.makeText(this,"注册",Toast.LENGTH_SHORT).show()
+            mPresenter.register("","","")
         }
     }
 }
