@@ -4,5 +4,5 @@ import com.lxhmmc.baselibrary.presenter.view.BaseView
 
 interface RegistView :BaseView {
 
-    fun onRegistResult(success:Boolean)
+    fun onRegistResult(success:String)
 }

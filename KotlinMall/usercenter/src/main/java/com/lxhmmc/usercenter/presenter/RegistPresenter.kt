@@ -1,5 +1,7 @@
 package com.lxhmmc.usercenter.presenter
 
+import com.lxhmmc.baselibrary.data.protocol.BaseResp
+import com.lxhmmc.baselibrary.data.protocol.UserRsp
 import com.lxhmmc.baselibrary.ext.execute
 import com.lxhmmc.baselibrary.presenter.BasePresenter
 import com.lxhmmc.usercenter.presenter.view.RegistView
@@ -12,9 +14,9 @@ class RegistPresenter : BasePresenter<RegistView>() {
 
 //        Observable.
         val userService = UserServiceImpl()
-        userService.regist(mobile, verifyCode, pwd).execute(object :Consumer<Boolean>{
-            override fun accept(t: Boolean) {
-                mView.onRegistResult(t)
+        userService.regist(mobile, verifyCode, pwd).execute(object :Consumer<BaseResp<UserRsp>>{
+            override fun accept(t: BaseResp<UserRsp>) {
+                mView.onRegistResult(t.message)
 
 
             }
