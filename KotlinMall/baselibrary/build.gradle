@@ -3,6 +3,7 @@ apply plugin: 'com.android.library'
 
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
 
 android {
     compileSdkVersion 28
@@ -16,6 +17,12 @@ android {
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
+
     }
 
     buildTypes {
@@ -27,34 +34,34 @@ android {
 
 }
 
-dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+kapt {
+    generateStubs = true
+    arguments {
+        arg("moduleName", project.getName())
+    }
+}
 
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:28.0.0-rc02'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-
     api "org.jetbrains.anko:anko-commons:$anko_version"
     api "org.jetbrains.anko:anko-design:$anko_version"
-
     api "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     api "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
-
     api "io.reactivex.rxjava2:rxkotlin:$rxkotlin_version"
-
-
     api "io.reactivex.rxjava2:rxandroid:$rxandroid_version"
     api "io.reactivex.rxjava2:rxjava:$rxjava_version"
-
     api "com.squareup.retrofit2:retrofit:$retrofit_version"
+    api "com.squareup.okhttp3:okhttp:${okhttp_version}"
+    api "com.squareup.okhttp3:logging-interceptor:${okhttp_version}"
+    api "com.squareup.retrofit2:retrofit:${retrofit_version}"
+    api "com.squareup.retrofit2:converter-gson:${retrofit_version}"
+    api "com.squareup.retrofit2:adapter-rxjava2:${retrofit_version}"
+    api "com.google.dagger:dagger:${dagger_version}"
+    kapt "com.google.dagger:dagger-compiler:${dagger_version}"
 
-    api "com.squareup.okhttp3:okhttp:$okhttp_version"
-    api "com.squareup.okhttp3:logging-interceptor:$okhttp_version"
-
-    api "com.squareup.retrofit2:retrofit:$retrofit_version"
-    api "com.squareup.retrofit2:converter-gson:$retrofit_version"
-    api "com.squareup.retrofit2:adapter-rxjava2:$retrofit_version"
-
-
+//    kapt files('libs/dagger-compiler-2.11.jar')
 }

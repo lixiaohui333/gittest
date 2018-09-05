@@ -7,7 +7,7 @@ if (isUsercenterModule.toBoolean()) {
 
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
-
+apply plugin: 'kotlin-kapt'
 
 
 android {
@@ -22,6 +22,12 @@ android {
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
+
     }
 
     buildTypes {
@@ -30,6 +36,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+
 
     sourceSets {
         main {
@@ -46,6 +54,7 @@ android {
 
 }
 
+
 kapt {
     generateStubs = true
 }
@@ -61,6 +70,8 @@ dependencies {
     //    implementation "org.jetbrains.anko:anko-commons:$anko_version"
     //    implementation "org.jetbrains.anko:anko-design:$anko_version"
     implementation project(':baselibrary')
+    kapt "com.google.dagger:dagger-compiler:${dagger_version}"
+//    kapt files('libs/dagger-compiler-2.11.jar')
 }
 repositories {
     mavenCentral()

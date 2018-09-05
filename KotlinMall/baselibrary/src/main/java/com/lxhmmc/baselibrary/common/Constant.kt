@@ -8,6 +8,6 @@ class  Constant{
 
     companion object {
 
-        val SERVICE_ADDRESS:String = "http://word.shicifang.cc/api/index.php/"
+        val SERVICE_ADDRESS:String = "http://192.168.33.144/Kotlin/"
     }
 }

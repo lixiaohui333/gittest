@@ -7,18 +7,21 @@ import com.lxhmmc.baselibrary.presenter.BasePresenter
 import com.lxhmmc.usercenter.presenter.view.RegistView
 import com.lxhmmc.usercenter.service.impl.UserServiceImpl
 import io.reactivex.functions.Consumer
+import javax.inject.Inject
 
-class RegistPresenter : BasePresenter<RegistView>() {
+
+class RegistPresenter @Inject constructor() : BasePresenter<RegistView>() {
+
+    @Inject
+    lateinit var userService:UserServiceImpl
 
     fun register(mobile: String, verifyCode: String, pwd: String) {
 
-//        Observable.
-        val userService = UserServiceImpl()
-        userService.regist(mobile, verifyCode, pwd).execute(object :Consumer<BaseResp<UserRsp>>{
-            override fun accept(t: BaseResp<UserRsp>) {
+        userService.regist(mobile, verifyCode, pwd).execute(Consumer { t ->
+            if (t.status == BaseResp.HTTP_OK) {
                 mView.onRegistResult(t.message)
-
-
+            } else {
+                mView.onError(t.message)
             }
         })
     }

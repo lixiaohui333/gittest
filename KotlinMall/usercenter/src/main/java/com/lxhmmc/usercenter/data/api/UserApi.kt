@@ -14,7 +14,7 @@ import retrofit2.http.POST
 interface UserApi {
 
 
-    @POST("?route=account/account/login")
-    fun registe(@Body req:RegisteReq):Observable<BaseResp<UserRsp>>
+    @POST("userCenter/register")
+    fun registe(@Body req:RegisteReq):Observable<BaseResp<String>>
 
 }
