@@ -63,5 +63,8 @@ dependencies {
     api "com.google.dagger:dagger:${dagger_version}"
     kapt "com.google.dagger:dagger-compiler:${dagger_version}"
 
+    api "com.trello.rxlifecycle2:rxlifecycle-kotlin:${rxlifecycle_version}"
+    api "com.trello.rxlifecycle2:rxlifecycle-components:${rxlifecycle_version}"
+
 //    kapt files('libs/dagger-compiler-2.11.jar')
 }

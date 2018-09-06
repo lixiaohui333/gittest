@@ -6,6 +6,7 @@
         android:allowBackup="true"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:name="com.lxhmmc.baselibrary.common.BaseApplication"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
         <activity android:name=".ui.activity.RegistActivity"
             >

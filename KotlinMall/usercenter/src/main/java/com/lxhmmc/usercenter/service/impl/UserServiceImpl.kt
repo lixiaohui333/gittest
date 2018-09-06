@@ -12,7 +12,6 @@ class UserServiceImpl @Inject constructor(): UserService {
     lateinit var userRepository: UserRepository
 
     override fun regist(mobile: String, verify: String, pwd: String): Observable<BaseResp<String>> {
-
         return userRepository.register(mobile,verify,pwd)
     }
 }
