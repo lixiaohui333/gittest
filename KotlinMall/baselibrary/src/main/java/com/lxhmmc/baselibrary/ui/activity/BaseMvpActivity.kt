@@ -1,6 +1,7 @@
 package com.lxhmmc.baselibrary.ui.activity
 
 import android.os.Bundle
+import com.kotlin.base.widgets.ProgressLoading
 import com.lxhmmc.baselibrary.common.BaseApplication
 import com.lxhmmc.baselibrary.injection.component.ActivityComponent
 import com.lxhmmc.baselibrary.injection.component.DaggerActivityComponent
@@ -14,11 +15,16 @@ import javax.inject.Inject
 
 abstract class BaseMvpActivity<T : BasePresenter<*>> : BaseActivity(), BaseView {
 
+    private lateinit var mLoadingDialog:ProgressLoading
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         initAcitivtyInject()
         initComponentInject()
+
+        mLoadingDialog = ProgressLoading.create(this)
     }
 
     abstract fun initComponentInject()
@@ -36,9 +42,11 @@ abstract class BaseMvpActivity<T : BasePresenter<*>> : BaseActivity(), BaseView 
     lateinit var mPresenter: T
 
     override fun showLoading() {
+        mLoadingDialog.showLoading()
     }
 
     override fun hideLoading() {
+        mLoadingDialog.hideLoading()
     }
 
     override fun onError(msg: String) {

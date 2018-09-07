@@ -1,10 +1,6 @@
 package com.lxhmmc.usercenter.presenter
 
-import com.lxhmmc.baselibrary.data.protocol.BaseResp
-import com.lxhmmc.baselibrary.data.protocol.UserRsp
 import com.lxhmmc.baselibrary.ext.convert
-import com.lxhmmc.baselibrary.ext.convertBoolean
-import com.lxhmmc.baselibrary.ext.execute
 import com.lxhmmc.baselibrary.ext.executeDefulat
 import com.lxhmmc.baselibrary.presenter.BasePresenter
 import com.lxhmmc.usercenter.presenter.view.RegistView

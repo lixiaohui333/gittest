@@ -3,8 +3,7 @@
           package="com.lxhmmc.usercenter">
 
     <application>
-        <activity android:name=".ui.activity.RegistActivity"
-            />
+        <activity android:name=".ui.activity.RegistActivity"/>
     </application>
 
 
