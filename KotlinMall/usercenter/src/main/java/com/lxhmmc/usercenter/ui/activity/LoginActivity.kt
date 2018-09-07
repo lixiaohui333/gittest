@@ -35,6 +35,8 @@ class LoginActivity : BaseMvpActivity<LoginPresenter>(), LoginView {
             startActivity<RegistActivity>()
         }
 
+        mForgetPwdTv.onClick { startActivity<ForgetActivity>() }
+
     }
 
     private fun isBtnEnable(): Boolean {

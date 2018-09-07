@@ -19,4 +19,7 @@ class UserServiceImpl @Inject constructor() : UserService {
     override fun login(mobile: String, pwd: String): Observable<BaseResp<UserInfo>> {
         return userRepository.login(mobile, pwd)
     }
+    override fun forget(mobile: String, verify: String): Observable<BaseResp<String>> {
+        return userRepository.forget(mobile, verify)
+    }
 }

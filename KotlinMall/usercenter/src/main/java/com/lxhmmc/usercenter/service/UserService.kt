@@ -10,4 +10,6 @@ interface UserService {
     fun regist(mobile: String, verify: String, pwd: String): Observable<BaseResp<String>>
 
     fun login(mobile: String, pwd: String): Observable<BaseResp<UserInfo>>
+
+    fun forget(mobile: String, verify: String): Observable<BaseResp<String>>
 }
