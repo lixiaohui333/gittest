@@ -12,4 +12,11 @@ interface UserService {
     fun login(mobile: String, pwd: String): Observable<BaseResp<UserInfo>>
 
     fun forget(mobile: String, verify: String): Observable<BaseResp<String>>
+
+    fun resetPwd(mobile: String, pwd: String): Observable<BaseResp<String>>
+
+
+    fun editUser(name: String, icon: String, gender: String, sign: String): Observable<BaseResp<UserInfo>>
+
+
 }

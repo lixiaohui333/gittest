@@ -9,5 +9,14 @@ class  Constant{
     companion object {
 
         val SERVICE_ADDRESS:String = "http://192.168.33.144/Kotlin/"
+
+
+        val EXTRA_STRING:String = "EXTRA_STRING"
+
+        const val IMAGE_SERVER_ADDRESS = "http://osea2fxp7.bkt.clouddn.com/"
+        //SP表名
+        const val TABLE_PREFS = "Kotlin_mall"
+        //Token Key
+        const val KEY_SP_TOKEN = "token"
     }
 }

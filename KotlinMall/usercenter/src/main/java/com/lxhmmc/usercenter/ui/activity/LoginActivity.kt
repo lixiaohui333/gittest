@@ -2,6 +2,7 @@ package com.lxhmmc.usercenter.ui.activity
 
 import android.os.Bundle
 import com.kotlin.user.data.protocol.UserInfo
+import com.kotlin.user.utils.UserPrefsUtils
 import com.lxhmmc.baselibrary.ext.enable
 import com.lxhmmc.baselibrary.ext.onClick
 import com.lxhmmc.baselibrary.ui.activity.BaseMvpActivity
@@ -16,7 +17,8 @@ import org.jetbrains.anko.toast
 class LoginActivity : BaseMvpActivity<LoginPresenter>(), LoginView {
 
     override fun onLoginResult(userinfo: UserInfo) {
-        toast(userinfo.toString())
+        UserPrefsUtils.putUserInfo(userinfo)
+        startActivity<UserInfoActivity>()
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -16,11 +16,4 @@ class BaseFuncBoolean<T>:Function<BaseResp<T>,Observable<Boolean>>{
         return Observable.just(true)
     }
 
-
-//    override fun call(t: BaseResp<T>): Observable<T> {
-//        if (t.status != BaseResp.HTTP_OK){
-//            return Observable.error(BaseException(t.status,t.message))
-//        }
-//        return Observable.just(t.data)
-//    }
 }

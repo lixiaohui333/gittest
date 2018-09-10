@@ -70,6 +70,7 @@ dependencies {
     //    implementation "org.jetbrains.anko:anko-commons:$anko_version"
     //    implementation "org.jetbrains.anko:anko-design:$anko_version"
     implementation project(':baselibrary')
+    implementation project(':provider')
     kapt "com.google.dagger:dagger-compiler:${dagger_version}"
 //    kapt files('libs/dagger-compiler-2.11.jar')
 }

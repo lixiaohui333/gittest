@@ -16,12 +16,18 @@ buildscript {
 
     ext.rxlifecycle_version='2.2.2'
 
+    ext.glide_version='4.6.1'
+    ext.circle_imageView_version = "2.1.0"
+
+    ext.takephoto_version = "4.0.3"
+    ext.alert_view_version = "1.0.3"
+
     repositories {
 
         jcenter()
         maven { url 'https://jitpack.io' }
         google()
-
+        mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.1.2'

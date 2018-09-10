@@ -20,14 +20,14 @@ class BaseConsumer {
         open fun start(mView: BaseView? = null): Consumer<Disposable> {
             return Consumer<Disposable> {
                 mView?.showLoading()
-                println("start")
+                println("okhttp start")
             }
         }
 
         open fun finish(mView: BaseView? = null): Action {
             return Action {
                 mView?.hideLoading()
-                println("finish")
+                println("okhttp finish")
             }
         }
 

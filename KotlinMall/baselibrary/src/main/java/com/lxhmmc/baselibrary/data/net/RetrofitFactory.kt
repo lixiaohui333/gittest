@@ -1,5 +1,6 @@
 package com.lxhmmc.baselibrary.data.net
 
+import com.kotlin.base.utils.AppPrefsUtils
 import com.lxhmmc.baselibrary.common.Constant
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
@@ -26,6 +27,7 @@ object RetrofitFactory {
             chain.request().newBuilder()
                     .addHeader("Content-Type", "application/json")
                     .addHeader("charset", "utf-8")
+                    .addHeader("token", AppPrefsUtils.getString(Constant.KEY_SP_TOKEN))
                     .build().let { chain.proceed(it) }
 
 //            chain.proceed(newChain)

@@ -1,6 +1,7 @@
 package com.lxhmmc.usercenter.ui.activity
 
 import android.os.Bundle
+import com.lxhmmc.baselibrary.common.Constant.Companion.EXTRA_STRING
 import com.lxhmmc.baselibrary.ext.enable
 import com.lxhmmc.baselibrary.ext.onClick
 import com.lxhmmc.baselibrary.ui.activity.BaseMvpActivity
@@ -9,13 +10,14 @@ import com.lxhmmc.usercenter.injection.compoent.DaggerUserCompoent
 import com.lxhmmc.usercenter.presenter.ForgetPresenter
 import com.lxhmmc.usercenter.presenter.view.ForgetView
 import kotlinx.android.synthetic.main.activity_forget_pwd.*
+import org.jetbrains.anko.startActivity
 import org.jetbrains.anko.toast
 
 class ForgetActivity : BaseMvpActivity<ForgetPresenter>(), ForgetView {
 
 
     override fun onForgetResult(success: String) {
-        toast(success)
+        startActivity<ResetPwdActivity>(EXTRA_STRING to mMobileEt.text.toString())
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

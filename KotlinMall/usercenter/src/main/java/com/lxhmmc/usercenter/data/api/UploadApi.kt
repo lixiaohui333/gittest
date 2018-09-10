@@ -15,23 +15,10 @@ import retrofit2.http.POST
  * @author lxh 2018/9/3.
  * @desc
  */
-interface UserApi {
+interface UploadApi {
 
 
-    @POST("userCenter/register")
-    fun registe(@Body req:RegisteReq):Observable<BaseResp<String>>
-
-    @POST("userCenter/login")
-    fun login(@Body req: LoginReq):Observable<BaseResp<UserInfo>>
-
-    @POST("userCenter/forgetPwd")
-    fun forget(@Body req: ForgetReq):Observable<BaseResp<String>>
-
-    @POST("userCenter/resetPwd")
-    fun resetPwd(@Body req: LoginReq):Observable<BaseResp<String>>
-
-
-    @POST("userCenter/editUser")
-    fun editUser(@Body req: EditUserReq):Observable<BaseResp<UserInfo>>
+    @POST("common/getUploadToken")
+    fun uploadToken():Observable<BaseResp<String>>
 
 }

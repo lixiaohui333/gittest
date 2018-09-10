@@ -6,20 +6,21 @@ import com.lxhmmc.baselibrary.ext.executeDefulat
 import com.lxhmmc.baselibrary.presenter.BasePresenter
 import com.lxhmmc.usercenter.presenter.view.ForgetView
 import com.lxhmmc.usercenter.presenter.view.LoginView
+import com.lxhmmc.usercenter.presenter.view.ResetPwdView
 import com.lxhmmc.usercenter.service.impl.UserServiceImpl
 import io.reactivex.functions.Consumer
 import javax.inject.Inject
 
 
-class ForgetPresenter @Inject constructor() : BasePresenter<ForgetView>() {
+class ResetPwdPresenter @Inject constructor() : BasePresenter<ResetPwdView>() {
 
     @Inject
     lateinit var userService: UserServiceImpl
 
-    fun forget(mobile: String, verify: String) {
+    fun resetPwd(mobile: String, pwd: String) {
 
-        userService.resetPwd(mobile, verify).convertBoolean().executeDefulat(Consumer { t ->
-            mView.onForgetResult("验证成功")
+        userService.resetPwd(mobile, pwd).convertBoolean().executeDefulat(Consumer { t ->
+            mView.onResetPwdResult("修改成功")
         }, mView, lifecycleProvider)
     }
 }

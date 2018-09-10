@@ -66,5 +66,21 @@ dependencies {
     api "com.trello.rxlifecycle2:rxlifecycle-kotlin:${rxlifecycle_version}"
     api "com.trello.rxlifecycle2:rxlifecycle-components:${rxlifecycle_version}"
 
+
+    //Glide  annotationProcessor
+    api "com.github.bumptech.glide:glide:$glide_version"
+    kapt "com.github.bumptech.glide:compiler:$glide_version"
+    //Circle ImageView
+    api "de.hdodenhof:circleimageview:${circle_imageView_version}"
+
+    api "com.jph.takephoto:takephoto_library:${takephoto_version}"
+
+    api "com.bigkoo:alertview:${alert_view_version}"
+
+    api 'com.yanzhenjie:permission:1.1.2'
+
+    //七牛
+    api 'com.qiniu:qiniu-android-sdk:7.3.+'
+
 //    kapt files('libs/dagger-compiler-2.11.jar')
 }

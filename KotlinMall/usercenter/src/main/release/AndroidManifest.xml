@@ -3,8 +3,11 @@
           package="com.lxhmmc.usercenter">
 
     <application>
-        <activity android:name=".ui.activity.RegistActivity"/>
+        <activity android:name=".ui.activity.LoginActivity" />
+        <activity android:name=".ui.activity.RegistActivity" />
         <activity android:name=".ui.activity.ForgetActivity" />
+        <activity android:name=".ui.activity.ResetPwdActivity" />
+        <activity android:name=".ui.activity.UserInfoActivity" />
     </application>
 
 

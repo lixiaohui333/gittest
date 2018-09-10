@@ -49,7 +49,7 @@ abstract class BaseMvpActivity<T : BasePresenter<*>> : BaseActivity(), BaseView 
         mLoadingDialog.hideLoading()
     }
 
-    override fun onError(msg: String) {
-        toast(msg)
+    override fun onError(msg: String?) {
+        msg?.let { toast(msg) }
     }
 }
