@@ -11,8 +11,8 @@ android {
 
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 28
-        versionCode 1
+        targetSdkVersion
+        versionCode 128
         versionName "1.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -34,10 +34,12 @@ android {
 
 }
 
+
 kapt {
     generateStubs = true
     arguments {
         arg("moduleName", project.getName())
+        arg("AROUTER_MODULE_NAME", project.getName())
     }
 }
 
@@ -77,10 +79,28 @@ dependencies {
 
     api "com.bigkoo:alertview:${alert_view_version}"
 
-    api 'com.yanzhenjie:permission:1.1.2'
+
+    api "com.ashokvarma.android:bottom-navigation-bar:${bottom_navigation_bar_version}"
+
+    //1.1.2
+    api "com.yanzhenjie:permission:${permission_version}"
 
     //七牛
     api 'com.qiniu:qiniu-android-sdk:7.3.+'
 
-//    kapt files('libs/dagger-compiler-2.11.jar')
+    api "com.alibaba:arouter-api:${arouter_api_version}"
+    kapt "com.alibaba:arouter-compiler:${arouter_compiler_version}"
+
+
+
+    //1.4.10
+    api "com.youth.banner:banner:${banner_version}"
+
+    //release-v1.0.5
+    //画廊
+//    api "com.github.crosswall:Android-Coverflow:${coverflow_version}"
+//    api 'com.github.crosswall:Android-Coverflow:release-v1.0.4'
+
+
+
 }

@@ -6,7 +6,7 @@ import com.lxhmmc.baselibrary.injection.component.AppComponent
 import com.lxhmmc.baselibrary.injection.component.DaggerAppComponent
 import com.lxhmmc.baselibrary.injection.module.AppModule
 
-class BaseApplication : Application() {
+open class BaseApplication : Application() {
 
     lateinit var appComponent: AppComponent
 

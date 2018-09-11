@@ -22,6 +22,17 @@ buildscript {
     ext.takephoto_version = "4.0.3"
     ext.alert_view_version = "1.0.3"
 
+    ext.arouter_api_version = "1.4.0"
+    ext.arouter_compiler_version = "1.2.1"
+
+    ext.permission_version = "1.1.2"
+    ext.bottom_navigation_bar_version = "2.0.5"
+
+
+    ext.banner_version = "1.4.10"
+
+    ext.coverflow_version = "release-v1.0.4"
+
     repositories {
 
         jcenter()
