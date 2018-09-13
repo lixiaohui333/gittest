@@ -1,4 +1,4 @@
-package com.example.provider;
+package com.lxhmmc.messagecenter;
 
 import org.junit.Test;
 

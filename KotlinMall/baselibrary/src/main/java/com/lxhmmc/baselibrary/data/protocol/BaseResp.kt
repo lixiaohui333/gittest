@@ -7,7 +7,7 @@ package com.lxhmmc.baselibrary.data.protocol
 data class BaseResp<out T>(val status: Int, val message: String, val data: T) {
 
     companion object {
-        open val HTTP_OK = 0
+        const val HTTP_OK = 0
     }
 
 }
