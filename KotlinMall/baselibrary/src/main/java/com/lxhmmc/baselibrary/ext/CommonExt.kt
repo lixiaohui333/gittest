@@ -77,3 +77,10 @@ fun ImageView.loadImage(context: Context, url: String) {
 fun ImageView.loadImage(url: String) {
     GlideApp.with(context).load(url).centerCrop().into(this)
 }
+
+/*
+    扩展视图可见性
+ */
+fun View.setVisible(visible:Boolean){
+    this.visibility = if (visible) View.VISIBLE else View.GONE
+}

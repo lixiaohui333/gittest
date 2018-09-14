@@ -22,7 +22,7 @@ class CategoryPresenter @Inject constructor() : BasePresenter<CategoryView>() {
         }
 
         mView.showLoading()
-        categoryService.getCategory(parentId).convert().executeDefulat(Consumer {
+        categoryService.getCategory(parentId).executeDefulat(Consumer {
             mView.onGetCategoryResult(it)
         }, mView, lifecycleProvider)
 

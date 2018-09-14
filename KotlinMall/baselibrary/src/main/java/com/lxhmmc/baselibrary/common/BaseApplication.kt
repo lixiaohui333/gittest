@@ -34,4 +34,9 @@ open class BaseApplication : Application() {
     companion object {
         lateinit var context: Context
     }
+
+    override fun attachBaseContext(base: Context?) {
+        super.attachBaseContext(base)
+
+    }
 }

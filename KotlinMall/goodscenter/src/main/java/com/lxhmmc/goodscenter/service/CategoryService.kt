@@ -5,5 +5,5 @@ import com.lxhmmc.goodscenter.data.protocol.Category
 import io.reactivex.Observable
 
 interface CategoryService {
-    fun getCategory(parentId:Int): Observable<BaseResp<MutableList<Category>?>>
+    fun getCategory(parentId:Int): Observable<MutableList<Category>?>
 }

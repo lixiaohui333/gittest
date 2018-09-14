@@ -3,6 +3,7 @@
 buildscript {
 
     ext.sdk_version = 27
+    ext.supportLibrary_ersion = '27.1.0'
 
     ext.kotlin_version = '1.2.51'
     ext.anko_version = '0.10.5'

@@ -1,6 +1,7 @@
 package com.lxhmmc.goodscenter.service.impl
 
 import com.lxhmmc.baselibrary.data.protocol.BaseResp
+import com.lxhmmc.baselibrary.ext.convert
 import com.lxhmmc.goodscenter.data.protocol.Category
 import com.lxhmmc.goodscenter.data.repository.CategoryRepository
 import com.lxhmmc.goodscenter.service.CategoryService
@@ -13,8 +14,8 @@ class CategoryServiceImpl @Inject constructor() : CategoryService {
     @Inject
     lateinit var categoryRepository: CategoryRepository
 
-    override fun getCategory(parentId: Int): Observable<BaseResp<MutableList<Category>?>> {
-        return categoryRepository.getCategory(parentId)
+    override fun getCategory(parentId: Int): Observable<MutableList<Category>?> {
+        return categoryRepository.getCategory(parentId).convert()
     }
 
 }
