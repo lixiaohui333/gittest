@@ -5,6 +5,7 @@ import com.module.user.domain.GetCategoryReq;
 import com.module.user.model.Category;
 import com.module.user.service.CategoryService;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,6 +30,7 @@ public class CategoryController extends BaseController {
         if ((list == null) || (list.size() == 0)) {
             resp.setStatus(0);
             resp.setMessage("分类列表为空");
+            resp.setData(new ArrayList<>());
             return resp;
         }
 

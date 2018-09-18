@@ -1,33 +1,45 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
-    ext.kotlin_version = '1.0.0'
+
+    ext.sdk_version = 27
+    ext.supportLibrary_ersion = '27.1.0'
+
     ext.kotlin_version = '1.2.51'
-    ext.anko_version='0.10.5'
-    ext.rxkotlin_version='2.3.0'
+    ext.anko_version = '0.10.5'
+    ext.rxkotlin_version = '2.3.0'
 
 
-    ext.rxjava_version='2.2.1'
-    ext.rxandroid_version='2.1.0'
+    ext.rxjava_version = '2.2.1'
+    ext.rxandroid_version = '2.1.0'
 
-    ext.retrofit_version='2.3.0'
-    ext.okhttp_version='3.11.0'
-    ext.dagger_version='2.11'
+    ext.retrofit_version = '2.3.0'
+    ext.okhttp_version = '3.11.0'
+    ext.dagger_version = '2.11'
 
-    ext.rxlifecycle_version='2.2.2'
+    ext.rxlifecycle_version = '2.2.2'
 
-    ext.glide_version='4.6.1'
+    ext.glide_version = '4.6.1'
     ext.circle_imageView_version = "2.1.0"
 
     ext.takephoto_version = "4.0.3"
     ext.alert_view_version = "1.0.3"
 
-    repositories {
+    ext.arouter_api_version = "1.4.0"
+    ext.arouter_compiler_version = "1.2.1"
 
+    ext.permission_version = "1.1.2"
+    ext.bottom_navigation_bar_version = "2.0.5"
+
+
+    ext.banner_version = "1.4.10"
+
+    ext.coverflow_version = "release-v1.0.4"
+    ext.triangleLabel_version = "1.1.2"
+
+    repositories {
         jcenter()
-        maven { url 'https://jitpack.io' }
         google()
-        mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.1.2'
@@ -40,8 +52,10 @@ buildscript {
 
 allprojects {
     repositories {
+        maven { url 'https://jitpack.io' }
         google()
         jcenter()
+        mavenCentral()
     }
 }
 

@@ -56,6 +56,11 @@ fun View.onClick(method: () -> Unit) {
     this.setOnClickListener { method() }
 }
 
+fun View.onClick(listener: View.OnClickListener): View {
+    setOnClickListener(listener)
+    return this
+}
+
 fun Button.enable(et: EditText, method: () -> Boolean) {
     val btn = this
     et.addTextChangedListener(object : DefaultTextWatcher() {
@@ -67,4 +72,15 @@ fun Button.enable(et: EditText, method: () -> Boolean) {
 
 fun ImageView.loadImage(context: Context, url: String) {
     GlideApp.with(context).load(url).centerCrop().into(this)
+}
+
+fun ImageView.loadImage(url: String) {
+    GlideApp.with(context).load(url).centerCrop().into(this)
+}
+
+/*
+    扩展视图可见性
+ */
+fun View.setVisible(visible:Boolean){
+    this.visibility = if (visible) View.VISIBLE else View.GONE
 }

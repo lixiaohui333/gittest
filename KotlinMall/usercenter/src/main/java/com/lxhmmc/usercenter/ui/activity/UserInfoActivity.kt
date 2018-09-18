@@ -20,6 +20,7 @@ import com.qiniu.android.http.ResponseInfo
 import com.qiniu.android.storage.UpCompletionHandler
 import com.qiniu.android.storage.UploadManager
 import kotlinx.android.synthetic.main.activity_user_info.*
+import org.jetbrains.anko.startActivity
 import org.jetbrains.anko.toast
 import org.json.JSONObject
 
@@ -31,7 +32,6 @@ class UserInfoActivity : BaseTakePhotoActivity<UserInfoPresenter>(), UserInfoVie
                 mRemoteFileUrl = Constant.IMAGE_SERVER_ADDRESS + response?.get("hash")
                 Log.i("test", mRemoteFileUrl)
                 mUserIconIv.loadImage(this@UserInfoActivity, mRemoteFileUrl!!)
-
             }
 
         }, null)
