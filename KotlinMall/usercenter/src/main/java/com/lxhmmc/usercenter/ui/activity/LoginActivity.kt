@@ -12,7 +12,6 @@ import com.lxhmmc.usercenter.presenter.LoginPresenter
 import com.lxhmmc.usercenter.presenter.view.LoginView
 import kotlinx.android.synthetic.main.activity_login.*
 import org.jetbrains.anko.startActivity
-import org.jetbrains.anko.toast
 
 class LoginActivity : BaseMvpActivity<LoginPresenter>(), LoginView {
 

@@ -8,7 +8,7 @@ class  Constant{
 
     companion object {
 
-        val SERVICE_ADDRESS:String = "http://192.168.33.144/Kotlin/"
+        val SERVICE_ADDRESS:String = "http://192.168.2.46/Kotlin/"
 
 
         val EXTRA_STRING:String = "EXTRA_STRING"

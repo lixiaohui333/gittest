@@ -11,7 +11,6 @@ import com.lxhmmc.usercenter.presenter.ForgetPresenter
 import com.lxhmmc.usercenter.presenter.view.ForgetView
 import kotlinx.android.synthetic.main.activity_forget_pwd.*
 import org.jetbrains.anko.startActivity
-import org.jetbrains.anko.toast
 
 class ForgetActivity : BaseMvpActivity<ForgetPresenter>(), ForgetView {
 
