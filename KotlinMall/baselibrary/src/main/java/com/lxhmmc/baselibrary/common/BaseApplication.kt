@@ -22,6 +22,7 @@ open class BaseApplication : Application() {
         ARouter.openLog()    // 打印日志
         ARouter.openDebug()
         ARouter.init(this)
+
     }
 
     private fun initAppComponent() {
