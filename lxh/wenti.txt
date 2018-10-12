@@ -1,0 +1,17 @@
+科大讯飞    第一挂
+
+1.面向对象的3大特征
+
+2.ThreadPool 线程池底层实现
+
+3.acitivity 最占内存的 view
+
+4.eventbus 底层实现
+
+5.灭屏后app和acitivity状态
+
+6.弱引用,软引用
+
+7.安全问题
+
+8.内存泄漏
