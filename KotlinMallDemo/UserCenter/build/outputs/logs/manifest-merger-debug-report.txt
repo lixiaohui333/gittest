@@ -1,0 +1,73 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:2:1-20:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:2:1-20:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:2:1-20:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:2:1-20:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:2:1-20:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:2:1-20:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:2:1-20:12
+	package
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:3:11-36
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:2:1-20:12
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:2:1-20:12
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:5:5-83
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:5:22-81
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:6:22-76
+application
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:7:5-18:19
+	android:supportsRtl
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:10:13-39
+	android:label
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:9:13-45
+	android:allowBackup
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:8:13-39
+activity#com.kotlin.user.ui.activity.RegisterActivity
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:13:9-65
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:13:19-63
+activity#com.kotlin.user.ui.activity.LoginActivity
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:14:9-62
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:14:19-60
+activity#com.kotlin.user.ui.activity.ForgetPwdActivity
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:15:9-66
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:15:19-64
+activity#com.kotlin.user.ui.activity.ResetPwdActivity
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:16:9-65
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:16:19-63
+activity#com.kotlin.user.ui.activity.UserInfoActivity
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:17:9-65
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml:17:19-63
+uses-sdk
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\src\main\release\AndroidManifest.xml

@@ -1,0 +1,685 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [:UserCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-25:12
+MERGED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-41:12
+MERGED from [:GoodsCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-23:12
+MERGED from [:OrderCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\OrderCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-22:12
+MERGED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-38:12
+MERGED from [:Provider] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\Provider\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:BaseLibrary] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\BaseLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-19:12
+MERGED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:2:1-128:12
+MERGED from [cn.jiguang.sdk:jcore:1.1.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jcore-1.1.7.aar\a0ed98f35fcd650064cbfaed0f0e13d0\AndroidManifest.xml:2:1-14:12
+MERGED from [ren.qinc.numberbutton:numberbutton:0.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\numberbutton-0.0.1.aar\c35ee0237f4831ace77be47497958927\AndroidManifest.xml:2:1-17:12
+MERGED from [:coverflow] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\coverflow\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [com.jph.takephoto:takephoto_library:4.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\takephoto_library-4.0.3.aar\ef851d4367d9dbb8621b928b3818fb5f\AndroidManifest.xml:2:1-28:12
+MERGED from [com.alibaba:arouter-api:1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\arouter-api-1.2.2.aar\dfeb7e68d2e6807c5dddbaefe9d18447\AndroidManifest.xml:2:1-10:12
+MERGED from [com.soundcloud.android.crop:lib_crop:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lib_crop-1.0.0.aar\b7f92b664a5f5aa8d43f3bbb9452995e\AndroidManifest.xml:2:1-12:12
+MERGED from [me.shaohui.advancedluban:library:1.3.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.3.2.aar\54c4a4f3df7c11585f2f207aeca7fb55\AndroidManifest.xml:2:1-11:12
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:2.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-2.0.2.aar\fa701b9a4e8d38657854189776e0ea43\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\fdf74aa50cafca576d6c3a16f6bbd0e7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\3ba3d8047975616794864ed820f286b0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.trello:rxlifecycle-components:1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxlifecycle-components-1.0.aar\8d83028389c536ae48ced468cd46788d\AndroidManifest.xml:13:1-19:12
+MERGED from [com.zhy:flowlayout-lib:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\flowlayout-lib-1.0.3.aar\9a0cf3975e36e932462db4e5eccfeb46\AndroidManifest.xml:2:1-12:12
+MERGED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multipleimageselect-1.0.4.aar\5b8f486f0389fb0d00c8702574762a49\AndroidManifest.xml:2:1-36:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\8aea026788990622a908b221ff43f36f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\ed845fa2831b7b02c90dd4b52a4c1c75\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.0.aar\3e165e4ac9c31a0ae73e41f36196e569\AndroidManifest.xml:17:1-22:12
+MERGED from [com.trello:rxlifecycle-kotlin:1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxlifecycle-kotlin-1.0.aar\c38654e6f66630f21b934cedb8dfebfa\AndroidManifest.xml:13:1-19:12
+MERGED from [com.trello:rxlifecycle-android:1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxlifecycle-android-1.0.aar\114b9b2f4f72f35ef7b81ea697784e34\AndroidManifest.xml:13:1-19:12
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbinding-0.4.0.aar\5c9314ef8a902e731ce02aadf27a729e\AndroidManifest.xml:2:1-8:12
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\23e757e21af1a0610c3dabd6a365095f\AndroidManifest.xml:15:1-21:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\2b93c98ec8e6d3333e7ec1013d90c020\AndroidManifest.xml:2:1-11:12
+MERGED from [com.bigkoo:alertview:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\alertview-1.0.3.aar\4dbd6f1ba1d4ef2d989234db4a033d3a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.youth.banner:banner:1.4.10] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\banner-1.4.10.aar\b45a1e7e9952feb631a545cf6b2f03d4\AndroidManifest.xml:2:1-11:12
+MERGED from [:multistateviewlib] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\multistateviewlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [cn.bingoogolapple:bga-refreshlayout:1.1.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bga-refreshlayout-1.1.7.aar\93342a6399f9bdd7ec329890c53d8eb9\AndroidManifest.xml:2:1-10:12
+MERGED from [com.eightbitlab:rxbus:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbus-1.0.2.aar\338ca7e9fc5b8b007427dd959ace7094\AndroidManifest.xml:2:1-16:12
+MERGED from [q.rorbin:badgeview:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\badgeview-1.1.2.aar\bd1c8189008c58793db49a769ab0982e\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\8383130a1cf542418913f274389f79e8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\23d314b114d21ec8815df00c85ea1ed5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\44cc734c708d8adf0e865b660d9bd003\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\fa0ddad702d80e682ec5cb69f3f167ce\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\77c220cf34a28dabf8b96a8b26e0e79b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\2021477d306a25fc72794f3a04705736\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\897a445e78056c8f65dfbf9b919c4b21\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\e5a97ed835a089152eb046c5ffc650bb\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8534bb78e752887908e6daa69349f235\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\4137df3c7d6c75dce8d68b2e6ad44c23\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ba281bac65eee044e36219ef2adc0fad\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\2c7af95999d3dc6a142f59c044c121ff\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:3:11-36
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:5:5-24:19
+MERGED from [:UserCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-23:19
+MERGED from [:UserCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-23:19
+MERGED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-39:19
+MERGED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-39:19
+MERGED from [:GoodsCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-21:19
+MERGED from [:GoodsCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-21:19
+MERGED from [:OrderCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\OrderCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20:19
+MERGED from [:OrderCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\OrderCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20:19
+MERGED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-36:19
+MERGED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-36:19
+MERGED from [:Provider] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\Provider\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [:Provider] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\Provider\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [:BaseLibrary] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\BaseLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-17:19
+MERGED from [:BaseLibrary] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\BaseLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-17:19
+MERGED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:37:5-126:19
+MERGED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:37:5-126:19
+MERGED from [cn.jiguang.sdk:jcore:1.1.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jcore-1.1.7.aar\a0ed98f35fcd650064cbfaed0f0e13d0\AndroidManifest.xml:11:5-12:19
+MERGED from [cn.jiguang.sdk:jcore:1.1.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jcore-1.1.7.aar\a0ed98f35fcd650064cbfaed0f0e13d0\AndroidManifest.xml:11:5-12:19
+MERGED from [ren.qinc.numberbutton:numberbutton:0.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\numberbutton-0.0.1.aar\c35ee0237f4831ace77be47497958927\AndroidManifest.xml:11:5-15:19
+MERGED from [ren.qinc.numberbutton:numberbutton:0.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\numberbutton-0.0.1.aar\c35ee0237f4831ace77be47497958927\AndroidManifest.xml:11:5-15:19
+MERGED from [:coverflow] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\coverflow\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [:coverflow] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\coverflow\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [com.jph.takephoto:takephoto_library:4.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\takephoto_library-4.0.3.aar\ef851d4367d9dbb8621b928b3818fb5f\AndroidManifest.xml:14:5-26:19
+MERGED from [com.jph.takephoto:takephoto_library:4.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\takephoto_library-4.0.3.aar\ef851d4367d9dbb8621b928b3818fb5f\AndroidManifest.xml:14:5-26:19
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:2.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-2.0.2.aar\fa701b9a4e8d38657854189776e0ea43\AndroidManifest.xml:11:5-47
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:2.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-2.0.2.aar\fa701b9a4e8d38657854189776e0ea43\AndroidManifest.xml:11:5-47
+MERGED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multipleimageselect-1.0.4.aar\5b8f486f0389fb0d00c8702574762a49\AndroidManifest.xml:13:5-34:19
+MERGED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multipleimageselect-1.0.4.aar\5b8f486f0389fb0d00c8702574762a49\AndroidManifest.xml:13:5-34:19
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\2b93c98ec8e6d3333e7ec1013d90c020\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\2b93c98ec8e6d3333e7ec1013d90c020\AndroidManifest.xml:9:5-20
+MERGED from [:multistateviewlib] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\multistateviewlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
+MERGED from [:multistateviewlib] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\multistateviewlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
+MERGED from [com.eightbitlab:rxbus:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbus-1.0.2.aar\338ca7e9fc5b8b007427dd959ace7094\AndroidManifest.xml:11:5-14:19
+MERGED from [com.eightbitlab:rxbus:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbus-1.0.2.aar\338ca7e9fc5b8b007427dd959ace7094\AndroidManifest.xml:11:5-14:19
+MERGED from [q.rorbin:badgeview:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\badgeview-1.1.2.aar\bd1c8189008c58793db49a769ab0982e\AndroidManifest.xml:11:5-20
+MERGED from [q.rorbin:badgeview:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\badgeview-1.1.2.aar\bd1c8189008c58793db49a769ab0982e\AndroidManifest.xml:11:5-20
+	android:supportsRtl
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:10:13-39
+	android:label
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:8:13-45
+	android:roundIcon
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:9:13-58
+	android:icon
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:7:13-47
+	android:allowBackup
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:6:13-39
+	android:theme
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:11:13-44
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:12:13-51
+activity#com.kotlin.mall.ui.activity.MainActivity
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:14:19-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:16:17-68
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:18:17-76
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:18:27-74
+activity#com.kotlin.mall.ui.activity.SettingActivity
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:22:9-64
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:22:19-62
+uses-sdk
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml
+MERGED from [:UserCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:UserCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:GoodsCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:GoodsCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:OrderCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\OrderCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:OrderCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\OrderCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:Provider] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\Provider\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:Provider] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\Provider\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:BaseLibrary] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\BaseLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:BaseLibrary] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\BaseLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.jiguang.sdk:jcore:1.1.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jcore-1.1.7.aar\a0ed98f35fcd650064cbfaed0f0e13d0\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.jiguang.sdk:jcore:1.1.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jcore-1.1.7.aar\a0ed98f35fcd650064cbfaed0f0e13d0\AndroidManifest.xml:7:5-9:41
+MERGED from [ren.qinc.numberbutton:numberbutton:0.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\numberbutton-0.0.1.aar\c35ee0237f4831ace77be47497958927\AndroidManifest.xml:7:5-9:41
+MERGED from [ren.qinc.numberbutton:numberbutton:0.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\numberbutton-0.0.1.aar\c35ee0237f4831ace77be47497958927\AndroidManifest.xml:7:5-9:41
+MERGED from [:coverflow] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\coverflow\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:coverflow] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\coverflow\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jph.takephoto:takephoto_library:4.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\takephoto_library-4.0.3.aar\ef851d4367d9dbb8621b928b3818fb5f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jph.takephoto:takephoto_library:4.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\takephoto_library-4.0.3.aar\ef851d4367d9dbb8621b928b3818fb5f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.alibaba:arouter-api:1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\arouter-api-1.2.2.aar\dfeb7e68d2e6807c5dddbaefe9d18447\AndroidManifest.xml:6:5-8:41
+MERGED from [com.alibaba:arouter-api:1.2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\arouter-api-1.2.2.aar\dfeb7e68d2e6807c5dddbaefe9d18447\AndroidManifest.xml:6:5-8:41
+MERGED from [com.soundcloud.android.crop:lib_crop:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lib_crop-1.0.0.aar\b7f92b664a5f5aa8d43f3bbb9452995e\AndroidManifest.xml:8:5-10:41
+MERGED from [com.soundcloud.android.crop:lib_crop:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lib_crop-1.0.0.aar\b7f92b664a5f5aa8d43f3bbb9452995e\AndroidManifest.xml:8:5-10:41
+MERGED from [me.shaohui.advancedluban:library:1.3.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.3.2.aar\54c4a4f3df7c11585f2f207aeca7fb55\AndroidManifest.xml:7:5-9:41
+MERGED from [me.shaohui.advancedluban:library:1.3.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.3.2.aar\54c4a4f3df7c11585f2f207aeca7fb55\AndroidManifest.xml:7:5-9:41
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:2.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-2.0.2.aar\fa701b9a4e8d38657854189776e0ea43\AndroidManifest.xml:7:5-9:41
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:2.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-2.0.2.aar\fa701b9a4e8d38657854189776e0ea43\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\fdf74aa50cafca576d6c3a16f6bbd0e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\fdf74aa50cafca576d6c3a16f6bbd0e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\3ba3d8047975616794864ed820f286b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\3ba3d8047975616794864ed820f286b0\AndroidManifest.xml:20:5-44
+MERGED from [com.trello:rxlifecycle-components:1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxlifecycle-components-1.0.aar\8d83028389c536ae48ced468cd46788d\AndroidManifest.xml:17:5-44
+MERGED from [com.trello:rxlifecycle-components:1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxlifecycle-components-1.0.aar\8d83028389c536ae48ced468cd46788d\AndroidManifest.xml:17:5-44
+MERGED from [com.zhy:flowlayout-lib:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\flowlayout-lib-1.0.3.aar\9a0cf3975e36e932462db4e5eccfeb46\AndroidManifest.xml:8:5-10:41
+MERGED from [com.zhy:flowlayout-lib:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\flowlayout-lib-1.0.3.aar\9a0cf3975e36e932462db4e5eccfeb46\AndroidManifest.xml:8:5-10:41
+MERGED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multipleimageselect-1.0.4.aar\5b8f486f0389fb0d00c8702574762a49\AndroidManifest.xml:7:5-9:41
+MERGED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multipleimageselect-1.0.4.aar\5b8f486f0389fb0d00c8702574762a49\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\8aea026788990622a908b221ff43f36f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\8aea026788990622a908b221ff43f36f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\ed845fa2831b7b02c90dd4b52a4c1c75\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\ed845fa2831b7b02c90dd4b52a4c1c75\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.0.aar\3e165e4ac9c31a0ae73e41f36196e569\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.0.aar\3e165e4ac9c31a0ae73e41f36196e569\AndroidManifest.xml:20:5-44
+MERGED from [com.trello:rxlifecycle-kotlin:1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxlifecycle-kotlin-1.0.aar\c38654e6f66630f21b934cedb8dfebfa\AndroidManifest.xml:17:5-44
+MERGED from [com.trello:rxlifecycle-kotlin:1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxlifecycle-kotlin-1.0.aar\c38654e6f66630f21b934cedb8dfebfa\AndroidManifest.xml:17:5-44
+MERGED from [com.trello:rxlifecycle-android:1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxlifecycle-android-1.0.aar\114b9b2f4f72f35ef7b81ea697784e34\AndroidManifest.xml:17:5-44
+MERGED from [com.trello:rxlifecycle-android:1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxlifecycle-android-1.0.aar\114b9b2f4f72f35ef7b81ea697784e34\AndroidManifest.xml:17:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbinding-0.4.0.aar\5c9314ef8a902e731ce02aadf27a729e\AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbinding-0.4.0.aar\5c9314ef8a902e731ce02aadf27a729e\AndroidManifest.xml:6:5-44
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\23e757e21af1a0610c3dabd6a365095f\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\23e757e21af1a0610c3dabd6a365095f\AndroidManifest.xml:19:5-43
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\2b93c98ec8e6d3333e7ec1013d90c020\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\2b93c98ec8e6d3333e7ec1013d90c020\AndroidManifest.xml:5:5-7:41
+MERGED from [com.bigkoo:alertview:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\alertview-1.0.3.aar\4dbd6f1ba1d4ef2d989234db4a033d3a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.bigkoo:alertview:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\alertview-1.0.3.aar\4dbd6f1ba1d4ef2d989234db4a033d3a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.youth.banner:banner:1.4.10] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\banner-1.4.10.aar\b45a1e7e9952feb631a545cf6b2f03d4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.youth.banner:banner:1.4.10] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\banner-1.4.10.aar\b45a1e7e9952feb631a545cf6b2f03d4\AndroidManifest.xml:7:5-9:41
+MERGED from [:multistateviewlib] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\multistateviewlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:multistateviewlib] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\multistateviewlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.bingoogolapple:bga-refreshlayout:1.1.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bga-refreshlayout-1.1.7.aar\93342a6399f9bdd7ec329890c53d8eb9\AndroidManifest.xml:6:5-8:41
+MERGED from [cn.bingoogolapple:bga-refreshlayout:1.1.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bga-refreshlayout-1.1.7.aar\93342a6399f9bdd7ec329890c53d8eb9\AndroidManifest.xml:6:5-8:41
+MERGED from [com.eightbitlab:rxbus:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbus-1.0.2.aar\338ca7e9fc5b8b007427dd959ace7094\AndroidManifest.xml:7:5-9:41
+MERGED from [com.eightbitlab:rxbus:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbus-1.0.2.aar\338ca7e9fc5b8b007427dd959ace7094\AndroidManifest.xml:7:5-9:41
+MERGED from [q.rorbin:badgeview:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\badgeview-1.1.2.aar\bd1c8189008c58793db49a769ab0982e\AndroidManifest.xml:7:5-9:41
+MERGED from [q.rorbin:badgeview:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\badgeview-1.1.2.aar\bd1c8189008c58793db49a769ab0982e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\8383130a1cf542418913f274389f79e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\8383130a1cf542418913f274389f79e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\23d314b114d21ec8815df00c85ea1ed5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\23d314b114d21ec8815df00c85ea1ed5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\44cc734c708d8adf0e865b660d9bd003\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\44cc734c708d8adf0e865b660d9bd003\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\fa0ddad702d80e682ec5cb69f3f167ce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\fa0ddad702d80e682ec5cb69f3f167ce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\77c220cf34a28dabf8b96a8b26e0e79b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\77c220cf34a28dabf8b96a8b26e0e79b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\2021477d306a25fc72794f3a04705736\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\2021477d306a25fc72794f3a04705736\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\897a445e78056c8f65dfbf9b919c4b21\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\897a445e78056c8f65dfbf9b919c4b21\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\e5a97ed835a089152eb046c5ffc650bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\e5a97ed835a089152eb046c5ffc650bb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8534bb78e752887908e6daa69349f235\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8534bb78e752887908e6daa69349f235\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\4137df3c7d6c75dce8d68b2e6ad44c23\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\4137df3c7d6c75dce8d68b2e6ad44c23\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ba281bac65eee044e36219ef2adc0fad\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ba281bac65eee044e36219ef2adc0fad\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\2c7af95999d3dc6a142f59c044c121ff\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\2c7af95999d3dc6a142f59c044c121ff\AndroidManifest.xml:20:5-44
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from [:UserCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-84
+	android:name
+		ADDED from [:UserCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:22-81
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:UserCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
+MERGED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
+MERGED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
+MERGED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:26:5-79
+MERGED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [:UserCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:22-76
+activity#com.kotlin.user.ui.activity.RegisterActivity
+ADDED from [:UserCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:9-81
+	android:name
+		ADDED from [:UserCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:19-78
+activity#com.kotlin.user.ui.activity.LoginActivity
+ADDED from [:UserCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:9-78
+	android:name
+		ADDED from [:UserCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:19-75
+activity#com.kotlin.user.ui.activity.ForgetPwdActivity
+ADDED from [:UserCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:9-82
+	android:name
+		ADDED from [:UserCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:19-79
+activity#com.kotlin.user.ui.activity.ResetPwdActivity
+ADDED from [:UserCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:9-81
+	android:name
+		ADDED from [:UserCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:19-78
+activity#com.kotlin.user.ui.activity.UserInfoActivity
+ADDED from [:UserCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:22:9-81
+	android:name
+		ADDED from [:UserCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\UserCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:22:19-78
+receiver#com.kotlin.message.receiver.MessageReceiver
+ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:9-29:20
+	android:enabled
+		ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:13-35
+	android:name
+		ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-71
+intent-filter#action:name:cn.jpush.android.intent.CONNECTION+action:name:cn.jpush.android.intent.MESSAGE_RECEIVED+action:name:cn.jpush.android.intent.NOTIFICATION_CLICK_ACTION+action:name:cn.jpush.android.intent.NOTIFICATION_OPENED+action:name:cn.jpush.android.intent.NOTIFICATION_RECEIVED+action:name:cn.jpush.android.intent.REGISTRATION+category:name:com.kotlin.mall
+ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:13-28:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:17-79
+	android:name
+		ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:25-76
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:17-83
+	android:name
+		ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:22:17-88
+	android:name
+		ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:22:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:23:17-86
+	android:name
+		ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:23:25-83
+action#cn.jpush.android.intent.NOTIFICATION_CLICK_ACTION
+ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:17-92
+	android:name
+		ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:25-89
+action#cn.jpush.android.intent.CONNECTION
+ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:25-74
+category#com.kotlin.mall
+ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:27:17-60
+	android:name
+		ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:27:27-57
+meta-data#JPUSH_APPKEY
+ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:31:9-34:45
+MERGED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:122:9-124:47
+MERGED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:122:9-124:47
+	tools:replace
+		ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:34:13-42
+	android:value
+		ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:13-53
+		REJECTED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:32:13-40
+meta-data#JPUSH_CHANNEL
+ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:35:9-38:45
+MERGED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:119:9-121:48
+MERGED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:119:9-121:48
+	tools:replace
+		ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:38:13-42
+	android:value
+		ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:37:13-46
+		REJECTED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:121:13-45
+	android:name
+		ADDED from [:MessageCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:36:13-41
+activity#com.kotlin.goods.ui.activity.GoodsActivity
+ADDED from [:GoodsCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:9-79
+	android:name
+		ADDED from [:GoodsCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:19-76
+activity#com.kotlin.goods.ui.activity.SearchGoodsActivity
+ADDED from [:GoodsCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:9-85
+	android:name
+		ADDED from [:GoodsCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:19-82
+activity#com.kotlin.goods.ui.activity.GoodsDetailActivity
+ADDED from [:GoodsCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:9-19:53
+	android:theme
+		ADDED from [:GoodsCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:13-50
+	android:name
+		ADDED from [:GoodsCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:13-76
+activity#com.kotlin.goods.ui.activity.CartActivity
+ADDED from [:GoodsCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:9-78
+	android:name
+		ADDED from [:GoodsCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:19-75
+activity#com.kotlin.order.ui.activity.OrderConfirmActivity
+ADDED from [:OrderCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\OrderCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:9-86
+	android:name
+		ADDED from [:OrderCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\OrderCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:19-83
+activity#com.kotlin.order.ui.activity.ShipAddressActivity
+ADDED from [:OrderCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\OrderCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:9-85
+	android:name
+		ADDED from [:OrderCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\OrderCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:19-82
+activity#com.kotlin.order.ui.activity.ShipAddressEditActivity
+ADDED from [:OrderCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\OrderCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:9-89
+	android:name
+		ADDED from [:OrderCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\OrderCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:19-86
+activity#com.kotlin.order.ui.activity.OrderActivity
+ADDED from [:OrderCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\OrderCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:9-79
+	android:name
+		ADDED from [:OrderCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\OrderCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:19-76
+activity#com.kotlin.order.ui.activity.OrderDetailActivity
+ADDED from [:OrderCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\OrderCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:9-85
+	android:name
+		ADDED from [:OrderCenter] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\OrderCenter\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:19-82
+uses-permission#android.permission.INTERNET
+ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+MERGED from [:BaseLibrary] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\BaseLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+MERGED from [:BaseLibrary] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\BaseLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+MERGED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:18:5-67
+MERGED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-76
+MERGED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:27:5-76
+MERGED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:27:5-76
+	android:name
+		ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-75
+MERGED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:20:5-75
+MERGED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-81
+MERGED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:21:5-81
+MERGED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:21:5-81
+MERGED from [com.jph.takephoto:takephoto_library:4.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\takephoto_library-4.0.3.aar\ef851d4367d9dbb8621b928b3818fb5f\AndroidManifest.xml:11:5-81
+MERGED from [com.jph.takephoto:takephoto_library:4.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\takephoto_library-4.0.3.aar\ef851d4367d9dbb8621b928b3818fb5f\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:22-78
+activity#com.alipay.sdk.app.H5PayActivity
+ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:9-27:20
+	android:screenOrientation
+		ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:13-47
+	android:windowSoftInputMode
+		ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:26:13-67
+	android:exported
+		ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:13-37
+	android:configChanges
+		ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:23:13-85
+	android:name
+		ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:22:13-60
+activity#com.alipay.sdk.app.H5AuthActivity
+ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:28:9-34:20
+	android:screenOrientation
+		ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:32:13-47
+	android:windowSoftInputMode
+		ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:13-67
+	android:exported
+		ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:31:13-37
+	android:configChanges
+		ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:13-74
+	android:name
+		ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:13-61
+activity#com.kotlin.pay.ui.activity.CashRegisterActivity
+ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:35:9-84
+	android:name
+		ADDED from [:PaySDK] D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\PaySDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:35:19-81
+permission#${JPUSH_PKGNAME}.permission.JPUSH_MESSAGE
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:11:5-13:47
+	android:protectionLevel
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:12:9-65
+permission#com.kotlin.mall.permission.JPUSH_MESSAGE
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:11:5-13:47
+	android:protectionLevel
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:12:9-65
+uses-permission#${JPUSH_PKGNAME}.permission.JPUSH_MESSAGE
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:16:22-78
+uses-permission#com.kotlin.mall.permission.JPUSH_MESSAGE
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:19:22-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:22:5-80
+IMPLIED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\App\src\main\AndroidManifest.xml:2:1-26:12 reason: cn.jpush.client.android requested WRITE_EXTERNAL_STORAGE
+MERGED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multipleimageselect-1.0.4.aar\5b8f486f0389fb0d00c8702574762a49\AndroidManifest.xml:11:5-80
+MERGED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multipleimageselect-1.0.4.aar\5b8f486f0389fb0d00c8702574762a49\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:22:22-77
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:23:5-73
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:23:22-70
+uses-permission#android.permission.VIBRATE
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:24:5-66
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:24:22-63
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:25:5-84
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:25:22-81
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:30:5-78
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:30:22-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:31:5-81
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:31:22-78
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:32:5-76
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:32:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:33:5-79
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:33:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:34:5-89
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:34:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:35:5-79
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:35:22-76
+activity#cn.jpush.android.ui.PopWinActivity
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:40:9-43:52
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:42:13-37
+	android:theme
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:41:13-62
+activity#cn.jpush.android.ui.PushActivity
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:46:9-57:20
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:49:13-37
+	android:configChanges
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:48:13-63
+	android:theme
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:50:13-60
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:47:13-60
+intent-filter#action:name:cn.jpush.android.ui.PushActivity+category:name:${JPUSH_PKGNAME}+category:name:android.intent.category.DEFAULT
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:51:13-56:29
+intent-filter#action:name:cn.jpush.android.ui.PushActivity+category:name:android.intent.category.DEFAULT+category:name:com.kotlin.mall
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:51:13-56:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:52:17-75
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:52:25-72
+category#android.intent.category.DEFAULT
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:54:17-76
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:54:27-73
+category#${JPUSH_PKGNAME}
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:55:17-61
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:55:27-58
+service#cn.jpush.android.service.PushService
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:60:9-71:19
+	android:process
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:64:13-40
+	android:enabled
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:62:13-35
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:61:13-64
+intent-filter#action:name:cn.jpush.android.intent.PUSH_TIME+action:name:cn.jpush.android.intent.PushService+action:name:cn.jpush.android.intent.REGISTER+action:name:cn.jpush.android.intent.REPORT
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:65:13-70:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:66:17-75
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:66:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:67:17-73
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:67:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:68:17-78
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:68:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:69:17-76
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:69:25-73
+service#cn.jpush.android.service.DaemonService
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:75:9-84:19
+	android:enabled
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:77:13-35
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:78:13-36
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:76:13-66
+intent-filter#action:name:cn.jpush.android.intent.DaemonService+category:name:${JPUSH_PKGNAME}
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:79:13-83:29
+intent-filter#action:name:cn.jpush.android.intent.DaemonService+category:name:com.kotlin.mall
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:79:13-83:29
+action#cn.jpush.android.intent.DaemonService
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:80:17-80
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:80:25-77
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:87:9-106:20
+	android:enabled
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:89:13-35
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:90:13-37
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:88:13-65
+intent-filter#action:name:cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+category:name:${JPUSH_PKGNAME}
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:91:13-94:29
+	android:priority
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:91:28-51
+intent-filter#action:name:cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+category:name:com.kotlin.mall
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:91:13-94:29
+	android:priority
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:91:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:92:17-94
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:92:25-91
+intent-filter#action:name:android.intent.action.USER_PRESENT+action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:95:13-98:29
+action#android.intent.action.USER_PRESENT
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:96:17-77
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:96:25-74
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:97:17-79
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:97:25-76
+intent-filter#action:name:android.intent.action.PACKAGE_ADDED+action:name:android.intent.action.PACKAGE_REMOVED+data:scheme:package
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:100:13-105:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:101:17-78
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:101:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:102:17-80
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:102:25-77
+data
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:104:17-50
+	android:scheme
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:104:23-47
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:109:9-111:40
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:111:13-37
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:110:13-66
+provider#cn.jpush.android.service.DataProvider
+ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:113:9-116:39
+	android:authorities
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:115:13-64
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:116:13-36
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.9.aar\407ca859d4d94b974b8fedc4d50cc0ce\AndroidManifest.xml:114:13-65
+uses-permission#android.permission.CAMERA
+ADDED from [com.jph.takephoto:takephoto_library:4.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\takephoto_library-4.0.3.aar\ef851d4367d9dbb8621b928b3818fb5f\AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from [com.jph.takephoto:takephoto_library:4.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\takephoto_library-4.0.3.aar\ef851d4367d9dbb8621b928b3818fb5f\AndroidManifest.xml:12:22-62
+activity#com.soundcloud.android.crop.CropImageActivity
+ADDED from [com.jph.takephoto:takephoto_library:4.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\takephoto_library-4.0.3.aar\ef851d4367d9dbb8621b928b3818fb5f\AndroidManifest.xml:15:9-82
+	android:name
+		ADDED from [com.jph.takephoto:takephoto_library:4.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\takephoto_library-4.0.3.aar\ef851d4367d9dbb8621b928b3818fb5f\AndroidManifest.xml:15:19-79
+provider#android.support.v4.content.FileProvider
+ADDED from [com.jph.takephoto:takephoto_library:4.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\takephoto_library-4.0.3.aar\ef851d4367d9dbb8621b928b3818fb5f\AndroidManifest.xml:17:9-25:20
+	android:grantUriPermissions
+		ADDED from [com.jph.takephoto:takephoto_library:4.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\takephoto_library-4.0.3.aar\ef851d4367d9dbb8621b928b3818fb5f\AndroidManifest.xml:21:13-47
+	android:authorities
+		ADDED from [com.jph.takephoto:takephoto_library:4.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\takephoto_library-4.0.3.aar\ef851d4367d9dbb8621b928b3818fb5f\AndroidManifest.xml:19:13-64
+	android:exported
+		ADDED from [com.jph.takephoto:takephoto_library:4.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\takephoto_library-4.0.3.aar\ef851d4367d9dbb8621b928b3818fb5f\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from [com.jph.takephoto:takephoto_library:4.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\takephoto_library-4.0.3.aar\ef851d4367d9dbb8621b928b3818fb5f\AndroidManifest.xml:18:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.jph.takephoto:takephoto_library:4.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\takephoto_library-4.0.3.aar\ef851d4367d9dbb8621b928b3818fb5f\AndroidManifest.xml:22:13-24:54
+	android:resource
+		ADDED from [com.jph.takephoto:takephoto_library:4.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\takephoto_library-4.0.3.aar\ef851d4367d9dbb8621b928b3818fb5f\AndroidManifest.xml:24:17-51
+	android:name
+		ADDED from [com.jph.takephoto:takephoto_library:4.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\takephoto_library-4.0.3.aar\ef851d4367d9dbb8621b928b3818fb5f\AndroidManifest.xml:23:17-67
+activity#com.darsh.multipleimageselect.activities.AlbumSelectActivity
+ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multipleimageselect-1.0.4.aar\5b8f486f0389fb0d00c8702574762a49\AndroidManifest.xml:16:9-24:20
+	android:label
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multipleimageselect-1.0.4.aar\5b8f486f0389fb0d00c8702574762a49\AndroidManifest.xml:19:13-45
+	android:configChanges
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multipleimageselect-1.0.4.aar\5b8f486f0389fb0d00c8702574762a49\AndroidManifest.xml:18:13-59
+	android:theme
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multipleimageselect-1.0.4.aar\5b8f486f0389fb0d00c8702574762a49\AndroidManifest.xml:20:13-60
+	android:name
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multipleimageselect-1.0.4.aar\5b8f486f0389fb0d00c8702574762a49\AndroidManifest.xml:17:13-88
+intent-filter#category:name:android.intent.category.DEFAULT
+ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multipleimageselect-1.0.4.aar\5b8f486f0389fb0d00c8702574762a49\AndroidManifest.xml:21:13-23:29
+activity#com.darsh.multipleimageselect.activities.ImageSelectActivity
+ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multipleimageselect-1.0.4.aar\5b8f486f0389fb0d00c8702574762a49\AndroidManifest.xml:25:9-33:20
+	android:label
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multipleimageselect-1.0.4.aar\5b8f486f0389fb0d00c8702574762a49\AndroidManifest.xml:28:13-45
+	android:configChanges
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multipleimageselect-1.0.4.aar\5b8f486f0389fb0d00c8702574762a49\AndroidManifest.xml:27:13-59
+	android:theme
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multipleimageselect-1.0.4.aar\5b8f486f0389fb0d00c8702574762a49\AndroidManifest.xml:29:13-60
+	android:name
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multipleimageselect-1.0.4.aar\5b8f486f0389fb0d00c8702574762a49\AndroidManifest.xml:26:13-88

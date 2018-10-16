@@ -1,0 +1,63 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:1:1-19:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:1:1-19:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:1:1-19:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:1:1-19:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:1:1-19:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:1:1-19:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:1:1-19:12
+	package
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:3:11-37
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:1:1-19:12
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:1:1-19:12
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:6:5-17:19
+	android:supportsRtl
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:8:18-44
+	android:label
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:7:18-50
+	android:allowBackup
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:6:18-44
+activity#com.kotlin.goods.ui.activity.GoodsActivity
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:11:9-62
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:11:19-60
+activity#com.kotlin.goods.ui.activity.SearchGoodsActivity
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:12:9-68
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:12:19-66
+activity#com.kotlin.goods.ui.activity.GoodsDetailActivity
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:13:9-15:11
+	android:theme
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:14:9-46
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:13:19-66
+activity#com.kotlin.goods.ui.activity.CartActivity
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:16:9-61
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml:16:19-59
+uses-sdk
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\GoodsCenter\src\main\AndroidManifest.xml

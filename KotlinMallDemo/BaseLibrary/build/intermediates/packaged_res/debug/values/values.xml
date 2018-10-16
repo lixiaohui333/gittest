@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#3d3d3d</color>
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryDark">#03a9f4</color>
+    <color name="common_bg">#f5f5f5</color>
+    <color name="common_black">#000000</color>
+    <color name="common_blue">#03a9f4</color>
+    <color name="common_blue_dark">#0288d1</color>
+    <color name="common_blue_light">#039be5</color>
+    <color name="common_disable">#d9d9d9</color>
+    <color name="common_divider">#d4d4d4</color>
+    <color name="common_gray">#dddddd</color>
+    <color name="common_purple">#d500f9</color>
+    <color name="common_red">#f11919</color>
+    <color name="common_white">#ffffff</color>
+    <color name="common_yellow">#fe9c2f</color>
+    <color name="text_dark">#999999</color>
+    <color name="text_light_dark">#333333</color>
+    <color name="text_normal">#666666</color>
+    <color name="transparent">#00000000</color>
+    <declare-styleable name="HeaderBar"><attr format="boolean" name="isShowBack"/><attr format="string" name="titleText"/><attr format="string" name="rightText"/></declare-styleable>
+    <declare-styleable name="LabelText"><attr format="string" name="labelText"/><attr format="string" name="contentText"/></declare-styleable>
+    <dimen name="common_border_size">1px</dimen>
+    <dimen name="common_divider_height">1px</dimen>
+    <dimen name="common_divider_width">1px</dimen>
+    <dimen name="common_header_bar_height">50dp</dimen>
+    <dimen name="common_icon_height">60dp</dimen>
+    <dimen name="common_icon_width">60dp</dimen>
+    <dimen name="common_line_height">50dp</dimen>
+    <dimen name="common_margin">15dp</dimen>
+    <dimen name="common_margin_middle">10dp</dimen>
+    <dimen name="common_margin_small">5dp</dimen>
+    <dimen name="common_padding">15dp</dimen>
+    <dimen name="common_padding_middle">10dp</dimen>
+    <dimen name="common_padding_small">5dp</dimen>
+    <dimen name="common_radius">6dp</dimen>
+    <dimen name="text_big_size">16sp</dimen>
+    <dimen name="text_large_size">18sp</dimen>
+    <dimen name="text_middle_size">14sp</dimen>
+    <dimen name="text_small_size">12sp</dimen>
+    <string name="app_name">BaseLibrary</string>
+    <string name="coming_soon_tip">敬请期待~~~</string>
+    <string name="common_complete">完成</string>
+    <string name="common_confirm">确认</string>
+    <string name="common_delete">删除</string>
+    <string name="common_edit">编辑</string>
+    <string name="common_next">下一步</string>
+    <string name="common_save">保存</string>
+    <string name="nav_bar_cart">购物车</string>
+    <string name="nav_bar_category">分类</string>
+    <string name="nav_bar_home">主页</string>
+    <string name="nav_bar_msg">消息</string>
+    <string name="nav_bar_user">我的</string>
+    <string name="no_data_tip">暂无数据~~~</string>
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textSize">@dimen/text_middle_size</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/common_black</item>
+        <item name="colorPrimaryDark">@color/common_black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.Black" parent="@style/AppTheme">
+        <item name="android:windowBackground">@color/common_black</item>
+    </style>
+    <style name="AutoMatch">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="AutoMatch.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="AutoMatch.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="AutoWrap">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="AutoWrap.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="AutoWrap.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="DividerFixedHeight">
+        <item name="android:background">@color/common_divider</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_divider_height</item>
+    </style>
+    <style name="DividerFixedWidth">
+        <item name="android:background">@color/common_divider</item>
+        <item name="android:layout_width">@dimen/common_divider_width</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="DividerFixedWidth.MarginTopBottom" parent="@style/DividerFixedWidth">
+        <item name="android:layout_marginTop">@dimen/common_margin_middle</item>
+        <item name="android:layout_marginBottom">@dimen/common_margin_middle</item>
+    </style>
+    <style name="FullBtnStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/common_white</item>
+        <item name="android:background">@drawable/btn_common_selector</item>
+        <item name="android:padding">@dimen/common_padding_middle</item>
+        <item name="android:layout_margin">@dimen/common_margin</item>
+        <item name="android:enabled">false</item>
+    </style>
+    <style name="LabelContentTextStyle" parent="@style/LabelTitleTextStyle">
+        <item name="android:textColor">@color/text_light_dark</item>
+    </style>
+    <style name="LabelTitleTextStyle">
+        <item name="android:textSize">@dimen/text_middle_size</item>
+        <item name="android:textColor">@color/text_normal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="LightDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan
+        </item>
+    </style>
+    <style name="LightProgressDialog" parent="@style/LightDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="MatchAuto">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+    <style name="MatchAuto.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="MatchAuto.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="MatchMatch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="MatchMatch.Common">
+        <item name="android:background">@color/common_bg</item>
+    </style>
+    <style name="MatchMatch.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="MatchMatch.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="MatchMatch.Vertical.Common">
+        <item name="android:background">@color/common_bg</item>
+    </style>
+    <style name="MatchOne">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+    </style>
+    <style name="MatchWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MatchWrap.Common">
+        <item name="android:background">@color/common_bg</item>
+    </style>
+    <style name="MatchWrap.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="MatchWrap.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="MultiStateStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="msv_loadingView">@layout/layout_state_loading</item>
+        <item name="msv_emptyView">@layout/layout_state_empty</item>
+        <item name="msv_errorView">@layout/layout_state_error</item>
+        <item name="msv_viewState">loading</item>
+    </style>
+    <style name="OneMatch">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="SearchHeaderEtStyle">
+        <item name="android:textColor">@color/common_white</item>
+        <item name="android:textColorHint">@color/common_white</item>
+        <item name="android:background">@drawable/home_header_corner_bg</item>
+        <item name="android:paddingLeft">@dimen/common_padding</item>
+        <item name="android:paddingTop">@dimen/common_padding_small</item>
+        <item name="android:paddingBottom">@dimen/common_padding_small</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/common_margin_small</item>
+        <item name="android:layout_marginRight">@dimen/common_margin</item>
+        <item name="android:layout_marginBottom">@dimen/common_margin_small</item>
+        <item name="android:drawableLeft">@drawable/icon_search</item>
+        <item name="android:drawablePadding">@dimen/common_padding_middle</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="SearchHeaderStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/common_blue</item>
+        <item name="android:paddingTop">@dimen/common_padding_small</item>
+        <item name="android:paddingRight">@dimen/common_padding</item>
+        <item name="android:paddingBottom">@dimen/common_padding_small</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_header_bar_height
+        </item>
+    </style>
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">@dimen/text_big_size</item>
+    </style>
+    <style name="TabsStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="tabIndicatorColor">@color/common_white</item>
+        <item name="tabBackground">@drawable/tab_selector</item>
+        <item name="tabTextAppearance">@style/TabLayoutTextStyle</item>
+        <item name="tabTextColor">@color/text_light_dark</item>
+        <item name="tabSelectedTextColor">@color/common_white</item>
+    </style>
+    <style name="TabsStyle.Order" parent="@style/TabsStyle">
+        <item name="tabIndicatorColor">@color/common_blue</item>
+        <item name="tabBackground">@drawable/border_bottom</item>
+        <item name="tabTextColor">@color/text_normal</item>
+        <item name="tabSelectedTextColor">@color/common_blue</item>
+    </style>
+    <style name="WeightMatch">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="WrapAuto">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+    <style name="WrapAuto.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="WrapAuto.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="WrapMatch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="WrapMatch.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="WrapMatch.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="WrapWrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="WrapWrap.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="WrapWrap.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="commonRecyclerView">
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+</resources>

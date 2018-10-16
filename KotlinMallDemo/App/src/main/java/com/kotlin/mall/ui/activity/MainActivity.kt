@@ -98,7 +98,6 @@ class MainActivity : BaseActivity() {
         for (fragment in mStack){
             manager.hide(fragment)
         }
-
         manager.show(mStack[position])
         manager.commit()
     }

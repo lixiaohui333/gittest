@@ -1,0 +1,101 @@
+-- Merging decision tree log ---
+meta-data#JPUSH_APPKEY
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:23:9-25:11
+	tools:replace
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:24:9-38
+	android:value
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:23:48-79
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:23:20-47
+meta-data#JPUSH_CHANNEL
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:26:9-28:11
+	tools:replace
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:27:9-38
+	android:value
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:26:49-81
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:26:20-48
+manifest
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:1:1-31:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:1:1-31:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:1:1-31:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:1:1-31:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:1:1-31:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:1:1-31:12
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:1:1-31:12
+	package
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:3:11-39
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:1:1-31:12
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:2:11-57
+	android:versionCode
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:1:1-31:12
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:5:5-29:19
+	android:supportsRtl
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:7:18-44
+	android:label
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:6:18-50
+	android:allowBackup
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:5:18-44
+receiver#com.kotlin.message.receiver.MessageReceiver
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:9:9-21:20
+	android:enabled
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:11:17-39
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:10:17-57
+intent-filter#action:name:cn.jpush.android.intent.CONNECTION+action:name:cn.jpush.android.intent.MESSAGE_RECEIVED+action:name:cn.jpush.android.intent.NOTIFICATION_CLICK_ACTION+action:name:cn.jpush.android.intent.NOTIFICATION_OPENED+action:name:cn.jpush.android.intent.NOTIFICATION_RECEIVED+action:name:cn.jpush.android.intent.REGISTRATION+category:name:com.kotlin.mall
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:12:13-20:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:13:17-79
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:13:25-76
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:14:17-83
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:14:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:15:17-88
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:15:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:16:17-86
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:16:25-83
+action#cn.jpush.android.intent.NOTIFICATION_CLICK_ACTION
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:17:17-92
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:17:25-89
+action#cn.jpush.android.intent.CONNECTION
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:18:25-74
+category#com.kotlin.mall
+ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:19:17-60
+	android:name
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml:19:27-57
+uses-sdk
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml
+INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml
+		ADDED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml
+		INJECTED from D:\SVNMenu\kotlin-mall\kotlinMall\KotlinMallDemo\MessageCenter\src\main\AndroidManifest.xml
